@@ -45,8 +45,7 @@ public class Snake extends Carnivore {
      * @return the color of the snake
      */
     public final String getColor() {
-        //TODO: Implement this method
-        throw new UnsupportedOperationException();
+        return color;
     }
 
     /**
