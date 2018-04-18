@@ -40,6 +40,16 @@ public class Snake extends Carnivore {
     }
 
     /**
+     * Get the color of the snake
+     * @throws UnsupportedOperationException this method is not implemented yet
+     * @return the color of the snake
+     */
+    public final String getColor() {
+        //TODO: Implement this method
+        throw new UnsupportedOperationException();
+    }
+
+    /**
      * Catch, kill and eat a mouse.
      * @param mouse the mouse to eat.
      * @throws MouseNotAliveException when the mouse is already dead.
